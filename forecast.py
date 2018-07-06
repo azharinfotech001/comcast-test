@@ -41,8 +41,8 @@ if x["cod"] != "404":
     # store the value corresponding
     # to the "temp" key of y
     current_temperature = y["temp"]
-	abc = 459.67
-	current_temperature = current_temperature - abc
+    abc = 459.67
+    current_temperature = current_temperature - abc
  
     # store the value corresponding
     # to the "pressure" key of y
@@ -62,7 +62,7 @@ if x["cod"] != "404":
     weather_description = z[0]["description"]
  
     # print following values
-    print(" Temperature (in kelvin unit) = " +
+    print(" Temperature (in Fahrenheit unit) = " +
                     str(current_temperature) +
           "\n atmospheric pressure (in hPa unit) = " +
                     str(current_pressure) +
