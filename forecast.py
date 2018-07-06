@@ -10,7 +10,7 @@ import requests, json
 api_key = "d7d545f7a4d3b748645fce10812fad78"
  
 # base_url variable to store url
-base_url = "http://api.openweathermap.org/data/2.5/weather?"
+base_url = "http://api.openweathermap.org/data/2.5/weather?q="+city+"&units=imperial&appid=e35a258f7b800b3fa59bada0598aaf9a"
  
 # Give city name
 city_name = input("Enter city name : ")
