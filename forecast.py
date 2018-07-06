@@ -41,9 +41,7 @@ if x["cod"] != "404":
     # store the value corresponding
     # to the "temp" key of y
     current_temperature = y["temp"]
-    abc = 459.67
-    current_temperature = current_temperature - abc
- 
+     
     # store the value corresponding
     # to the "pressure" key of y
     current_pressure = y["pressure"]
